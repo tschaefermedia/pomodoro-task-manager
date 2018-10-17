@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+@import "error";
+body{
+  font-size: 1.25rem;
+  font-family: 'Lato', sans-serif;
+}
+.active.nav-link{
+  color: $dark;
+}
+.timer{
+  font-size: 4rem;
+  color: $success;
+}
+.header{
+  font-family: 'Lato', sans-serif;
+  font-size: calc(0.8rem * 2);
+}
+.header-plus{
+}
+.underline{
+  text-decoration: underline;
+}

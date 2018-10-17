@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Pomodoro Task Manager</title>
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but pomodoro-task-manager doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong>
+</noscript>
+<div id="taskManager">
+    <router-view
+            class="view"
+            keep-alive
+            transition
+            transition-mode="out-in" name="index"></router-view>
+    <router-view></router-view>
+
+</div>
+<!-- built files will be auto injected -->
+</body>
+</html>
